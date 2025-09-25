@@ -37,10 +37,10 @@ This project uses [UCI Diabetes 130-US hospitals dataset](https://archive.ics.uc
    - Top 10 Feature Importance Bar Plot  
 
 **Confusion Matrix (Decision Tree)**
-<img src="images/output.png" alt="Confusion Matrix" width="400"/>
+<img src="visuals/output.png" alt="Confusion Matrix" width="400"/>
 
 **Top 10 Features by Importance**
-<img src="images/output2.png" alt="Feature Importance" width="400"/>
+<img src="visuals/output2.png" alt="Feature Importance" width="400"/>
   
 
 ---
