@@ -37,9 +37,11 @@ This project uses [UCI Diabetes 130-US hospitals dataset](https://archive.ics.uc
    - Top 10 Feature Importance Bar Plot  
 
 **Confusion Matrix (Decision Tree)**
+
 <img src="visuals/output.png" alt="Confusion Matrix" width="400"/>
 
 **Top 10 Features by Importance**
+
 <img src="visuals/output2.png" alt="Feature Importance" width="400"/>
   
 
@@ -69,11 +71,17 @@ This project uses [UCI Diabetes 130-US hospitals dataset](https://archive.ics.uc
 
 hospital-readmission-risk-analysis/
 ├── data/
-│   └── diabetic_data.csv
+│   └── data.csv              
 │
-├── workbook/
-│   ├── 01_cleaning.ipynb
-│   └── 02_modeling.ipynb
+├── notebooks/
+│   ├── clean.ipynb               # data cleaning & preprocessing
+│   └── load.ipynb                # logistic regression & decision tree models
 │
-├── README.md
-└── .gitignore
+├── visuals/                      # saved plots (confusion matrix, feature importance)
+│   ├── output.png
+│   └── output2.png
+│
+├── requirements.txt             # dependencies
+├── README.md                    # project overview
+└── .gitignore                   # ignore venv, CSVs, checkpoints
+
